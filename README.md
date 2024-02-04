@@ -1,8 +1,8 @@
-# jwtauth
+# jwtAuth
 
 ## Motivation
 
-### Goal
+### Goa
 
 ⚙️ Installation
 
