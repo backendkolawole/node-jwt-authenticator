@@ -6,7 +6,7 @@ node-jwtAuthenticator provides authentication in web applications to ensure user
 
 ## Goal
 
-JSON Web Token is a way of securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret or a public/private key
+JWTs protect against data tampering and impersonation. JSON Web Token is a way of securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret or a public/private key
 
 ## ⚙️ Installation
 
