@@ -12,7 +12,7 @@ const login = async (req, res)=> {
     }
     const id = new Date().getDate()
     const token = jwt.sign({ id, username }, process.env.JWT_SECRET, { expiresIn: '2d' })
-    res.status(200).json({msg: "user logged in", token})
+    res.status(200).json({msg: `${username} logged in`, token})
 }
 
 const dashboard = async (req, res)=> {
